@@ -119,10 +119,11 @@ a.button-hero{
     letter-spacing: 1.5px;
 }
 
-.feature-background .content image{
-    height: auto;
-    max-width: 100%;
-    width: auto;
-    display: inline-block;
-    text-align: center;
+.feature-background .clear{
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: 120px 0;
+    box-sizing: border-box;   
 }
