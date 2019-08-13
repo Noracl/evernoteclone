@@ -101,13 +101,17 @@ a{
 .feature-background .content, 
 .feature-backgroung .image{
     padding: 0 40px 0 0;
-    width: 50%;
+  width: 50%;
+  letter-spacing: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .feature-background .content h1{
     font-size: 56px;
     line-height: 72px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .feature-background .content h4{
@@ -141,3 +145,8 @@ a.button-hero{
     padding: 120px 0;
     box-sizing: border-box;   
 }
+
+.image {
+    width: 50%;
+    text-align: center;
+  }
